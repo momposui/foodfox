@@ -1,0 +1,23 @@
+.brands {
+  background: $lgrey;
+  padding: 15px 0;
+  margin-top: 200px;
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .brand-item {
+    width: 20%;
+    flex-grow: 0;
+    img {
+      object-fit: contain;
+      opacity: 0.5;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      img {
+        opacity: 1;
+      }
+    }
+  }
+}

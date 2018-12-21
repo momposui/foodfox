@@ -1,0 +1,30 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.mt3 {
+  margin-top: 3rem;
+}
+
+.mt6 {
+  margin-top: 6rem;
+}
+
+.pv1 {
+  padding: {
+    top: 1rem;
+    bottom: 1rem;
+  }
+}
+
+.ph1 {
+  padding: {
+    left: 1rem;
+    right: 1rem;
+  }
+}
+
+.dflex {
+  display: flex;
+}

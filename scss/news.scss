@@ -1,0 +1,29 @@
+.news {
+  .news-list {
+    display: flex;
+    justify-content: space-between;
+    .news-card {
+      flex-basis: 32%;
+      .news-card-img {
+        height: 240px;
+        overflow: hidden;
+        img {
+          object-fit: fill;
+          width: 100%;
+        }
+      }
+      .news-card-body {
+        padding: 20px 10px;
+        background-color: $dgrey;
+        transition: all 0.3s ease;
+        color: $white;
+      }
+      &:hover {
+        .news-card-body {
+          padding: 20px 10px;
+          background-color: $orange;
+        }
+      }
+    }
+  }
+}
